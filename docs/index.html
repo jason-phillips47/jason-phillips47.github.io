@@ -2,16 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jason Phillips</title>
-    <script type="module" crossorigin src="/assets/index-GDPvgAEt.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-rv5BT30D.css">
+    <script type="module" crossorigin src="/assets/index-7qTKLb6y.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-GUBoKeZQ.css">
   </head>
-  <body class="cursor-none">
-    <div class="cursor small"></div>
-
-    <div class="cursor big"></div>
+  <body class="cursor-none mobile-background lg:bg-transparent">
+    <div class="cursor small hidden lg:block"></div>
+    <div class="cursor big hidden lg:block"></div>
+    
 
     <canvas class="position-fixed left-0 top-0" id="bg"></canvas>
     <main>
@@ -81,6 +80,7 @@
                         <a class="clicklink text-blue-600 hover:text-blue-800 hover:underline" href="https://borderless.us/"><strong>Borderless Website</strong></a>
                         <i class="italic">2024</i>
                       </div>
+                      <br class="lg:hidden">
                       <div id="description-1" class="description line-clamp-3 overflow-hidden" data-initial-clamp="line-clamp-3">
                         A sleek customs brokerage platform interface built with React, Tailwind, TypeScript, and deployed on AWS, offering a responsive, device-agnostic experience. It employs React Router for fluid navigation and CSS Modules for component-specific styling, ensuring a clean, maintainable codebase. The design emphasizes usability and interactivity, showcasing modern web development practices.
                       </div>
@@ -147,7 +147,7 @@
                     </div>
                     <button class="expand-btn text-blue-500 text-sm mt-2" data-target="description-3">Click to expand</button>
                   </div>
-                  <div class="project-media-3" id="media-3">
+                  <div class="project-media-3 hidden lg:block" id="media-3">
                     <video autoplay loop muted>
                       <source src="/assets/wikiholev1-preview-compressed-OpyAPMwW.mp4" type="video/mp4">
                       Your browser does not support the video tag.
@@ -160,13 +160,14 @@
               >
                 <div class="project-box" data-project="4">
                   <div
-                    class="relative shrink-0 box-border h-auto bg-sky-950 bg-opacity-60 border mt-auto pl-4 pr-4 pb-4 pt-3 rounded-3xl border-none border-sky-950 border-opacity-0"
+                    class="relative shrink-0 box-border h-auto bg-sky-950 bg-opacity-60 border mt-5 lg:mt-auto pl-4 pr-4 pb-4 pt-3 rounded-3xl border-none border-sky-950 border-opacity-0"
                     data-el="div-6"
                   >
                     <div class="flex text-xs justify-between">
                       <strong>NBA Statistic Predictor</strong>
                       <i class="italic">2022</i>
                     </div>
+                    <br class="lg:hidden">
                     <div id="description-4" class="description line-clamp-3 overflow-hidden" data-initial-clamp="line-clamp-3">
                       Uses API calls and regular expressions to format and
                       populate a pandas dataframe, and scikit-learn’s
@@ -330,7 +331,6 @@
   </div>
   <div"><br><br></div>
       <div id="app"></div>
-    </main>
-
+    </main>
   </body>
 </html>
